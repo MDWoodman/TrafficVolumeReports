@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrafficSensors.Bus.BusApi\TrafficSensors.Bus.BusApi.csproj" />
+    <ProjectReference Include="..\TrafficSensors.DB.SensorsDb\TrafficSensors.DB.SensorsDb.csproj" />
+  </ItemGroup>
+
+</Project>
